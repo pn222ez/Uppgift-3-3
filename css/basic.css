@@ -1,1 +1,26 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body {
+	font-family: Verdana, 'Times New Roman';
+	font-size: 12px; 
+}
+
+#container {
+	margin: 0 auto;
+	width: 600px;
+	border: 1px #CECABB solid;
+}
+
+#topbar {
+	background-color: #51473D;
+	color: #FFF;
+	background-image: url('pics/coffey.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 600px;
+	height: 220px;
+	text-align: right;
+	font-size: 10px;
+	font-style: italic;
+	color: #EAE7D2;
+	padding: 6px 0 0 0;
+}
