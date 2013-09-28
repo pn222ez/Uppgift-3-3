@@ -8,10 +8,10 @@ body {
 	margin: 0 auto;
 	width: 600px;
 	border: 1px #CECABB solid;
+	background-color: #51473D;
 }
 
 #topbar {
-	background-color: #51473D;
 	color: #FFF;
 	background-image: url('pics/coffey.jpg');
 	background-repeat: no-repeat;
@@ -24,3 +24,44 @@ body {
 	color: #EAE7D2;
 	padding: 6px 0 0 0;
 }
+
+#menu a[href^='#maincontent'] {
+	display: none;
+}
+
+#menu ul {
+	display: table;
+	height: 30px;
+	margin: 6px 0 0 0;
+	padding: 0 0 0 12px;
+}
+
+#menu ul li {
+	display: table-cell;
+	background-color: #797067;
+	padding: 0 20px 0 20px;
+	border-right: 1px #51473D solid;
+	vertical-align: middle;
+}
+
+#menu ul li:hover {
+	background-color: #9C9084;
+}
+
+#menu a:link, #menu a:active, #menu a:hover, #menu a:focus, #menu a:visited {
+	text-decoration: none;
+	color: #EAE7D2;
+	text-transform: capitalize;
+}
+
+#menu ul li.active {
+	background-color: #EAE7D2
+}
+
+#menu ul li.active a:link, #menu ul li.active a:active, #menu ul li.active a:hover, #menu ul li.active a:focus, #menu ul li.active a:visited {
+	text-decoration: none;
+	color: #797067;
+	text-transform: capitalize;
+}
+
+
