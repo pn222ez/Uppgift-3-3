@@ -64,4 +64,79 @@ body {
 	text-transform: capitalize;
 }
 
+#content {
+	background-color: #EAE7D2;
+	color: #797067;
+	padding: 20px 6px 12px 6px;
+	display: table;
+}
+
+#content a:link, #content a:active, #content a:hover, #content a:focus, #content a:visited {
+	color: #797067;
+}
+
+#content img {
+	float: left;
+	margin: 3px;
+}
+
+#maincontent {
+	display: table-cell;
+	line-height: 1.9em;
+	padding: 5px;
+	border-right: 1px #CECABB dashed;
+	width: 60%;
+}
+
+#subcontent {
+	display: table-cell;
+	padding: 7px;
+	width: 40%;
+}
+
+#subcontent p {
+	font-size: 0.7em;
+	line-height: 2.5em;
+}
+
+#bottomcontent {
+	display: table-footer-group;
+}
+
+#maincontent h1 {
+	font-family: 'Times new roman';
+	color: #797067;
+	margin-top: 0;
+	font-weight: 200;
+	font-size: 2.5em;
+}
+
+#subcontent h1 {
+	font-family: 'Times new roman';
+	color: #797067;
+	margin-top: 0;
+	font-weight: 200;
+	font-size: 1.3em;
+}
+
+#subcontent h2 {
+	font-family: 'Times new roman';
+	color: #797067;
+	margin: 3.5em 0 0 0;
+	padding: 0;
+	font-weight: 200;
+	font-size: 1.3em;
+}
+
+#subcontent ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	line-height: 1.7em;
+}
+
+#bottomcontent {
+	font-size: 0.8em;
+	font-style: italic;
+}
 
